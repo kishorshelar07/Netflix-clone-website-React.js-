@@ -1,0 +1,46 @@
+.container1{
+    height: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.qustions{
+    width: 800px;
+    height:80px;
+    text-align: left;
+    background-color: #2d2d2d;
+    margin: 4px;
+    margin-left: 170px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+span{
+ margin-left: 750px;
+}
+
+.email-input2 {
+    margin-top: 20px;
+  }
+  
+  .email-input2 input {
+    margin-left: 35%;
+    padding: 10px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    background-color: #2d2d2d;
+  }
+  h3{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .get-started-btn2 {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
