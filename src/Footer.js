@@ -36,6 +36,14 @@ function Footer() {
       </div>
         
       </div>
+      <div className="navbar-right d-flex">
+          <div className="language-select"  >
+            <button className="lang-btn" >English <i class="bi bi-caret-down-fill"></i></button>
+            <div className="text-white" ><p>Netflix India</p></div>
+
+          </div>
+          
+      </div>
     </div>
   );
 }

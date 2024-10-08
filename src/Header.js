@@ -13,7 +13,9 @@ function Header() {
         </div>
         <div className="navbar-right d-flex">
           <div className="language-select">
-            <button className="lang-btn" >English</button>
+            <button className="lang-btn">
+              English <i class="bi bi-caret-down-fill"></i>
+            </button>
           </div>
           <button className="sign-in-btn">Sign In</button>
         </div>

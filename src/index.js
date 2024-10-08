@@ -3,24 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header';
-import Footer from './Footer';
-import Body from './Body';
-import Carousel from './Carousel';
-import Card from './Card';
-import Qustions from './Qustions';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
      <App />
-     <Header/>
-     <Body/>
-     <Carousel/>
-     <Card/>
-     <Qustions/>
-     <Footer/>
-
     </>
    
   
