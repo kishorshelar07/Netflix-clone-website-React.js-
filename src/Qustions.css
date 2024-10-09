@@ -28,6 +28,8 @@ span{
     color: white;
     font-size: 20px;
     background-color: #2d2d2d;
+    border-radius: 6px;
+    border: none;
   }
   h3{
     color: white;
