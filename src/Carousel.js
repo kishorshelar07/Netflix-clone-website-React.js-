@@ -3,7 +3,7 @@ import "./Carousel.css";
 function Carousel({ card_img, bg_color }) {
   return (
     <div className="Carousel">
-      <div className="col-md-3">
+      <div className="col-md-3 ">
         <div className="card text-white border-0" style={{ backgroundColor: bg_color }}>
           <div className="card-body d-flex">
             <div>
