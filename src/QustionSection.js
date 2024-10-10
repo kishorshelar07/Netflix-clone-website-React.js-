@@ -2,7 +2,6 @@ import React from "react";
 import Qustions from "./Qustions";
 
 function QustionSection() {
-  // Single array with question and color combined
   let q_list = [
     { question: "What is Netflix?", color: "red" },
     { question: "Where can I watch?", color: "blue" },
@@ -21,7 +20,7 @@ function QustionSection() {
             return (
               <Qustions
                 qustiontext={q_item.question}
-                style={{color: q_item.color }}  // Apply color from object
+                style={{color: q_item.color }}  // Apply color 
               />
             );
           })}
