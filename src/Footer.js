@@ -30,7 +30,7 @@ function Footer() {
           ))}
         </div>
       </div>
-      <div className="navbar-right d-flex">
+      <div className=" d-flex">
         <div className="language-select">
           <button className="lang-btn">
             English <i className="bi bi-caret-down-fill"></i>

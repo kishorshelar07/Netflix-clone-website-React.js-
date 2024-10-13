@@ -21,6 +21,7 @@
     margin-left: 10px;
     cursor: pointer;
     opacity: 0.9; /* Slight transparency for buttons */
+    border-radius: 5px;
   }
   
   .language-select button:hover, .sign-in-btn:hover {

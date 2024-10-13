@@ -1,13 +1,13 @@
 import Card from "./Card";
 
 function CardSection() {
-  // Define an array of card data with titles, descriptions, image sources, and background colors
+
   const cardData = [
     {
       title: "Enjoy on your TV",
       desc: "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.",
       img_src: "https://cdn3d.iconscout.com/3d/premium/thumb/screen-tv-3d-icon-download-in-png-blend-fbx-gltf-file-formats--monitor-display-technology-pack-appliances-icons-5331395.png?f=webp",
-      bg_color: "#111212" 
+      bg_color: "#fa2875" 
     },
     {
       title: "Download your shows to watch offline",
@@ -19,7 +19,7 @@ function CardSection() {
       title: "Watch everywhere",
       desc: "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
       img_src: "https://cdn-icons-png.flaticon.com/512/6188/6188621.png",
-      bg_color: "#c542f5" 
+      bg_color: "#8628fa" 
     },
     {
       title: "Create profiles for kids",
@@ -40,7 +40,7 @@ function CardSection() {
                 title={card.title}
                 desc={card.desc}
                 img_src={card.img_src}
-                style={{ backgroundColor: card.bg_color }} // Apply background color from the array
+                style={{ backgroundColor: card.bg_color }} 
               />
             ))}
           </div>

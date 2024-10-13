@@ -1,5 +1,4 @@
-import "./Card.css"; // Ensure you have appropriate styles if needed
-
+import "./Card.css"; 
 function Card(props) {
   return (
     <div className="col-6 col-md-6 col-lg-3 mb-4">
